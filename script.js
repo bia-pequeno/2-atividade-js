@@ -22,20 +22,21 @@ else{
     console.log("Não é seu aniversario")
 }
 
-let nome="Raquel"
+let nome = "Beatriz"
 
-if (nome == "Beatriz") {
+if (nome == "Raquel") {
     console.log("Seu nome começa com R")
 }
 else{
     console.log("Seu nome não começa com R")
 }
 
-let nome2 = "Eduarda"
+let nome2 = "Beatriz"
+let sobrenome ="Pequeno"
 
-if (nome2 == "Beatriz") {
-    console.log("Seu nome começa com E")
+if(sobrenome.length > 6 || nome2.substring(0,1) === "E") {
+    console.log("Seu sobrenome tem mais de 6 letras ou seu nome começa com a letra E")
 }
 else{
-    console.log("Seu nome não começa com E")
+    console.log("Seu sobrenome não tem mais de 6 letras ou seu nome não começa com a letra E")
 }
